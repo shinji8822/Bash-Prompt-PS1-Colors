@@ -1,5 +1,5 @@
 # Bash-Prompt-PS1-Colors
-
+```
 # We need to encapsulate with "\[ \]" to use in a prompt
 BLUE1='\[\033[1;34m\]'
 BLUE2='\[\033[34m\]'
@@ -23,3 +23,4 @@ NOCOLOUR='\[\033[0m\]'
 # Don't forget to use double quotes "
 PS1="$CYAN1\u@\h $GRIS2\w $YELLOW2>$PURPLE2>$RED1> $NOCOLOUR"
 export PS1
+```
